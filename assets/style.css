@@ -1,0 +1,63 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.navbarColor{
+    background-color: #b911b9;
+}
+
+.containerCustom{
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+/*Bandeau 1*/
+.rectLogoCermep{
+    width: 20%;
+    height: 100px;
+}
+.logoCermep{
+    background-image: url("/assets/img/logo-cermep.png");
+}
+
+/*Bandeau 2*/
+.bandeauImage{
+    width: 100%;
+    height: 175px ;
+}
+.imgExplorer{
+    background-image: url("/assets/img/bandeauExplorer.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbarPurple{
+    background-color: #a91ca9;
+}
+
+.rect-contenu{
+    height: 100vh;
+
+}
+
+.image-presentation{
+    /*background-image: url("/assets/img/cermep-presentation.jpg");*/
+    background-color: #0086B3;
+    width: 100%;
+    height: 284px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imgTEP{
+    background-image: url("/assets/img/TEP.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+}
